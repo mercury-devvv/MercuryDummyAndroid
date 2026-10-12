@@ -22,3 +22,9 @@ ANDROID_HOME="$HOME/Library/Android/sdk" PATH="$HOME/Library/Android/sdk/platfor
 Set `E2E_DEVICE` to a device name reported by `node_modules/.pnpm/agent-device@*/node_modules/agent-device/bin/agent-device.mjs devices`
 when more than one Android emulator is booted. TestArmy writes its report,
 JUnit output, screenshots, and video under `.e2e/`; failed runs also retain traces.
+
+### Latest successful Android run
+
+TestArmy passed both login tests on the API 37 emulator. The final welcome screen:
+
+![Successful Android login E2E](test-evidence/android-login-success.png)
