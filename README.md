@@ -27,4 +27,4 @@ JUnit output, screenshots, and video under `.e2e/`; failed runs also retain trac
 
 TestArmy passed both login tests on the API 37 emulator. The final welcome screen:
 
-![Successful Android login E2E](test-evidence/android-login-success.png)
+![Successful Android login E2E](tests/evidence/android-login-success.png)
