@@ -1,0 +1,16 @@
+{
+  "name": "mercury-dummy-android",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@12.10.1",
+  "engines": {
+    "node": "^22.22.3 || >=24.8.0"
+  },
+  "scripts": {
+    "test:e2e": "e2e run --target android --workers 1 --video=on --reporter=list,junit"
+  },
+  "devDependencies": {
+    "@e2e-dev/mobile": "0.11.0",
+    "e2e": "0.17.0"
+  }
+}
